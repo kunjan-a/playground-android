@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ConnectivityTester</string>
+    <string name="endpoint_prompt">Choose a remote endpoint</string>
+    <string-array name="endpoint_arrays">
+        <item>doormobile.handler.domain.to:443</item>
+        <item>doorstaging.handler.domain.to:5222</item>
+        <item>uecho1.use1b.domain.to:443</item>
+        <item>uecho1.use1b.domain.to:995</item>
+        <item>uecho1.use1b.domain.to:993</item>
+        <item>uecho1.use1b.domain.to:465</item>
+        <item>proxy.handler.domain.to:443</item>
+        <item>proxy-staging-external.handler.domain.to:443</item>
+        <item>google.com:443</item>
+        <item>google.com:80</item>
+        <item>Custom</item>
+    </string-array>
+    <string name="proxy_prompt">Choose proxy type</string>
+    <string-array name="proxy_arrays">
+        <item>Default</item>
+        <item>SOCKS</item>
+        <item>HTTP</item>
+    </string-array>
+</resources>

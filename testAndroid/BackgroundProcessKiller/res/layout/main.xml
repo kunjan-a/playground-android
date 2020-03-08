@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="!! Kill It !!"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            />
+    <EditText android:id="@+id/et_packageName" android:layout_width="250dp" android:layout_height="50dp" android:hint="Package to kill"/>
+    <Button android:layout_width="80dp" android:layout_height="50dp" android:text="Die" android:id="@+id/btn_die"/>
+    <Button android:layout_width="80dp" android:layout_height="50dp" android:text="Language" android:id="@+id/btn_lang"/>
+</LinearLayout>
+
